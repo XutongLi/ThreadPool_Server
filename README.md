@@ -16,7 +16,7 @@
 
 将测试使用的静态test.html文件放入 `/var/www/html/` 中
 
-服务器编译与启动：
+*服务器编译与启动*：
 
 ```
 mkdir build
@@ -26,7 +26,13 @@ make
 ./ThreadPool_SVR 127.0.0.1 8888
 ```
 
-测试编译与启动：
+*浏览器访问静态页面*：
+
+浏览器中输入：`127.0.0.1:8888/test.html`
+
+![](./img/browser.png)
+
+*测试编译与启动*：
 
 ```
 g++ test.cpp -o test
